@@ -1,1 +1,316 @@
+@media all and (max-width: 1000px) {
+  .body-1 {
+   display: flex;
+   flex-wrap:wrap;
+ }
 
+ .feature-wrapper {
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature{
+  width: 40%;
+  margin:40px 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.feature p {
+  font-size:16px;
+  font-weight: normal;
+}
+
+.clear {
+  clear: left;
+}
+
+.info-wrapper {
+	display:flex;
+	flex-wrap:wrap;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.info {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  padding-bottom: 20px;
+}
+
+.info-text h2 {
+	padding-top: 20px;
+}
+
+.info-text p {
+	padding-right: 0px;
+	font-size:17px;
+	font-weight: normal;
+}
+
+.btn{
+  width:100%;
+}
+
+.title-info{
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.title-info h2{
+  font-size:40px;
+  margin-bottom: 15px;
+  color:#3e3e3e  ;
+  text-align: left;
+}
+
+
+.title-info p{
+  font-size:20px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #757575 ;
+  line-height: 30px;
+}
+
+.learn-more{
+  font-size:18px;
+
+}
+
+
+.hows{
+  display:flex;
+  flex-wrap:wrap;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.how{
+  width: 40%;
+  margin:20px 10px;
+  flex:auto;
+  text-align: center;
+  box-shadow: 
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06)
+  ;
+  border-radius: 3px;
+}
+.how:hover{
+  margin-top: 5px;margin-bottom: 35px;
+  transition: all 0.5s;
+}
+
+.how img{
+  max-width: 90%; 
+  margin: 25px auto;
+  display: block;
+}
+
+.how h4{
+  max-width: 90%; 
+  margin:15px auto;
+  font-size:16px;
+  color:#3e3e3e  ;
+  text-align: center;
+}
+
+.how p{
+  max-width: 90%; 
+  margin:15px auto;
+  margin-bottom:25px;
+  font-size:16px;
+  color: #757575 ;
+}
+
+.body3 {    
+  height: 500px;
+}
+.body3-content {
+  height: 200px;
+  padding-bottom: 10px;
+}
+.content1{
+  padding-top:5px; 
+}
+.content2{
+  font-size: 8px;
+  padding-bottom: 5px;
+}
+.btn-News{
+  height: 15px;
+  width: 150px;
+  font-size: 8px;
+}
+.btn-News:hover{
+  width: 160px;
+  font-size: 9px;
+}
+.body3-content2 {
+  height: 200px;
+}
+.btn-content  { 
+  width: 150px;
+  height: 15px;
+  font-size: 8px;
+}
+}
+
+@media all and (max-width: 670px) {
+	
+  .feature-wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  .feature{
+    width: 100%;
+    margin:40px 10px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .info-wrapper {
+   display:flex;
+   flex-wrap:wrap;
+   background-color: white;
+   margin: 0 auto;
+ }
+
+ .info {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  padding-bottom: 20px;
+}
+
+.info-text h2 {
+	padding-top: 20px;
+}
+
+.info-text p {
+	padding-right: 0px;
+	font-size:17px;
+	font-weight: normal;
+}
+
+.body-1 .btn{
+  width:100%;
+}
+
+.title-info{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.title-info h2{
+  font-size:40px;
+  margin-bottom: 15px;
+  color:#3e3e3e  ;
+  text-align: left;
+}
+
+
+.title-info p{
+  font-size:17px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #757575 ;
+  line-height: 25px;
+}
+
+.learn-more{
+  font-size:18px;
+
+}
+
+
+.hows{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.how{
+  width: 100%;
+  margin:20px 0;
+  flex:auto;
+  text-align: center;
+  box-shadow: 
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06)
+  ;
+  border-radius: 3px;
+}
+
+.btn{
+  width:100%;
+}
+
+.body3 {    
+  height: 300px;
+}
+.body3-content {
+  height: 140px;
+  padding-bottom: 10px;
+}
+.content1{
+  padding-top:12px; 
+  padding-bottom: 3px;
+  line-height:5px;
+}
+.content1 h2{
+  font-size: 15px;
+}
+.content2{
+  font-size: 5px;
+  line-height:5px;
+  padding-bottom: 5px;
+}
+.btn-News{
+  height: 10px;
+  width: 80px;
+  font-size: 5px;
+}
+.btn-News:hover{
+  width: 100px;
+  font-size: 7px;
+}
+.body3-content2 {
+  height: 120px;
+}
+.btn-content  { 
+  width: 100px;
+  height: 10px;
+  font-size: 5px;        
+}
+.btn-content:hover{
+  width: 100px;
+  height: 10px;
+  font-size: 5px; 
+}
+
+
+}
