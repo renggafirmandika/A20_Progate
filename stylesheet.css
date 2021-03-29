@@ -212,6 +212,7 @@ a {
   padding: 10px;
   border:1px solid cadetblue;
   max-width: 1170px;
+  margin: 0 auto;
 }
 
 .body3-content {
