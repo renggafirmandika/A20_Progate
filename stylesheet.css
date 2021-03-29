@@ -219,6 +219,7 @@ a {
   height: 300px;
   background-color:cadetblue;
   color: #fff;
+  margin: 0 auto;
 }
 .content1{
   padding-top:50px; 
