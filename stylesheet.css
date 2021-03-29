@@ -5,7 +5,6 @@
 
 body {
   font-family: "Calibri";
-  max-width: 1170px;
 }
 
 a {
@@ -212,6 +211,7 @@ a {
   height: 600px;
   padding: 10px;
   border:1px solid cadetblue;
+  max-width: 1170px;
 }
 
 .body3-content {
