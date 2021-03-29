@@ -5,6 +5,7 @@
 
 body {
   font-family: "Calibri";
+  max-width: 1170px;
 }
 
 a {
